@@ -83,6 +83,14 @@
                             <constraint firstItem="au1-cx-bGQ" firstAttribute="top" secondItem="khc-ks-XzB" secondAttribute="bottom" constant="6" id="teQ-fC-Wlp"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="cityName" destination="1eT-eG-cyD" id="sj2-h0-amI"/>
+                        <outlet property="currentCityTemp" destination="prS-xh-qZG" id="cbT-et-576"/>
+                        <outlet property="currentDate" destination="R9X-zA-re4" id="JOu-Vj-ma2"/>
+                        <outlet property="specialBackground" destination="9gr-uc-CVH" id="cKa-hN-SGZ"/>
+                        <outlet property="weatherImage" destination="au1-cx-bGQ" id="cYF-Jh-qHd"/>
+                        <outlet property="weatherType" destination="khc-ks-XzB" id="bS9-zf-2u6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
